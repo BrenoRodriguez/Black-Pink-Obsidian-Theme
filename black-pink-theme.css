@@ -1,0 +1,110 @@
+/* Collors Stuff */
+body{
+    --text-title-h1: #FF3064 ;
+    --text-title-h2: #FF3064 ;
+    --text-title-h3: #FF3064 ;
+    --text-title-h4: #FF3064 ;
+    --text-title-h5: #FF3064 ;
+    --text-title-h6: #FF3064 ;
+}
+
+.theme-dark{
+    --text-normal: hsl(34, 50%, 80%);;
+    --text-accent: #FF4A77;
+    --text-accent-hover: #E62C5A ;
+    --text-on-accent: #FF4A77;
+    --text-selection: rgb(123 22 64 / 63%);
+    --background-secondary-alt: #101010;
+    --interactive-accent: #ec176259;
+}
+
+/* Font Stuff */
+:root{
+    --font-sans: 'Karla', 'Rubik', 'Inter', -apple-system BlinkMacSystemFont, 'Segoe UI', 'Ubuntu', Helvetica, Arial, sans-serif;
+        --font-serif: 'Lora', 'Vollkorn', Georgia, Garamond, serif;
+        --font-monospace: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Courier, monospace;
+        --font-preview: var(--font-sans);
+        --font-editor: var(--font-sans);
+        --font-header: var(--font-sans);
+        --font-code: var(--font-monospace);
+        --default-font: var(--font-sans);
+        --mermaid-font: var(--font-preview);
+        --reveal-font: var(--font-preview);
+        --font-thin: 100;
+        --font-extra-light: 200;
+        --font-light: 300;
+        --font-regular: 400;
+        --font-medium: 500;
+        --font-semi-bold: 600;
+        --font-bold: 900;
+        --font-extra-bold: 800;
+        --line-width: 42em;
+        --scale-ratio: 1.48;
+        --font-scale-000: 0.547rem;
+        --font-scale-00: 0.676rem;
+        --font-scale-0: 0.81rem;
+        --font-scale-0-5: 0.875rem;
+        --font-scale-1: 1rem;
+        --font-scale-2: 1.198rem;
+        --font-scale-3: 1.48rem;
+        --font-scale-4: 1.774rem;
+        --font-scale-5: 2.19rem;
+        --font-scale-6: 2.625rem;
+        --font-scale-7: 3.242rem;
+        --font-scale-8: 3.885rem;
+        --font-scale-9: 4.798rem;
+        --font-scale-10: 5.75rem;
+        --line-height-000: 0.673em;
+        --line-height-00: 0.748em;
+        --line-height-0: 0.86em;
+        --line-height-1: 1.53em;
+        --line-height-2: 1.536em;
+        --line-height-3: 1.495em;
+        --line-height-4: 1.46em;
+        --line-height-5: 1.428em;
+        --line-height-6: 1.407em;
+        --line-height-7: 1.388em;
+        --line-height-8: 1.372em;
+        --line-height-9: 1.359em;
+        --line-height-10: 1.349em;
+        --tracking-0: 0px;
+        --tracking-1: 0.16px;
+        --tracking-2: 0.32px;
+        --tracking-3: 0.64px;
+        --tracking-4: 1.28px;
+        --tracking-5: 2.56px;
+        --scale-0-0: 0px;
+        --scale-2-1: 2px;
+        --scale-2-2: 4px;
+        --scale-2-3: 6px;
+        --scale-2-4: 8px;
+        --scale-2-5: 10px;
+        --scale-2-6: 12px;
+        --scale-2-8: 16px;
+        --scale-2-9: 18px;
+        --scale-2-10: 20px;
+        --scale-2-18: 36px;
+        --scale-8-1: 8px;
+        --scale-8-2: 16px;
+        --scale-8-3: 24px;
+        --scale-8-4: 32px;
+        --scale-8-5: 40px;
+        --scale-8-6: 48px;
+        --scale-8-7: 54px;
+        --scale-8-8: 64px;
+        --scale-8-9: 72px;
+        --scale-8-10: 80px;
+        --scale-8-12: 96px;
+        --scale-8-18: 144px;
+        --scale-8-36: 288px;
+        --duration-none: 0;
+        --duration-fast-1: 220ms;
+        --duration-fast-2: 360ms;
+        --duration-moderate-1: 500ms;
+        --duration-moderate-2: 640ms;
+        --duration-slow-1: 760ms;
+        --duration-slow-2: 800ms;
+        --motion-smooth: cubic-bezier(0.45,0.05,0.55,0.95);
+        --motion-delay: cubic-bezier(0.65,0.05,0.36,1);
+        --motion-jumpy: cubic-bezier(0.68,-0.55,0.27,1.55);
+    }
